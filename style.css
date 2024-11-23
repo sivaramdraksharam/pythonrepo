@@ -1,0 +1,50 @@
+/* static/css/style.css */
+
+/* Center the form on the page */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+}
+
+label, input, textarea, button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+/* Success message styling */
+.success {
+    color: green;
+    font-weight: bold;
+}
+
+/* Error message styling */
+.error {
+    color: red;
+    font-weight: bold;
+}
+
+/* Info message styling */
+.info {
+    color: blue;
+    font-weight: bold;
+}
